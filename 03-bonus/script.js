@@ -1,6 +1,6 @@
 console.log(' numeri primi')
 
-for (let i=0; i<100; i++){
+for (let i=0; i<1000; i++){
     let numeri = i+1
     //let numeri = 21
    // console.log(numeri)
