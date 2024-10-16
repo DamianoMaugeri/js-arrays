@@ -1,6 +1,6 @@
 console.log(' numeri primi')
 
-for (let i=0; i<1000; i++){
+for (let i=0; i<100; i++){
     let numeri = i+1
     //let numeri = 21
    // console.log(numeri)
@@ -23,9 +23,7 @@ for (let i=0; i<1000; i++){
     }
            
     
-    if (tuttiImoduli.includes(0)){
-    
-    }else{
+    if (!(tuttiImoduli.includes(0))){
         numeriPrimi = numeri
         console.log(numeriPrimi)
     
